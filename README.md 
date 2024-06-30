@@ -1,0 +1,62 @@
+![Screenshot 1](assets/screenshot1.png)
+![Screenshot 2](assets/screenshot2.png)
+
+# Project Title
+
+## Related Paper
+
+You can read more about the theoretical background of this project in our [research paper](https://arxiv.org/abs/1706.03762).
+
+
+# Transformer From Scratch
+
+This repository contains the code for building a transformer model from scratch.
+
+## Attention Mechanism
+
+The Attention Mechanism is a core component of the Transformer architecture. It helps the model focus on relevant parts of the input sequence when making predictions. Here's a brief explanation of the key concepts:
+
+### Query, Key, and Value
+
+- **Query**: What we are looking for.
+- **Key**: What we got.
+- **Value**: What we offer.
+
+In the context of the Attention Mechanism:
+- The **Query** is a representation of the current word we are processing.
+- The **Key** is a representation of all words in the input sequence.
+- The **Value** is the actual information of all words in the input sequence that we use to generate the output.
+
+### Diagram
+
+Here is a visual representation of the Attention Mechanism:
+
+![Attention Mechanism](https://github.com/deependujha/Attention-and-Transformers/blob/main/assets/transformer.webp)
+
+## Related Paper
+
+For a detailed explanation of the methodology and results, please refer to our [research paper](https://link_to_your_paper.com).
+
+## Installation
+
+Follow these steps to set up the project:
+
+1. Clone the repository
+    ```sh
+    git clone https://github.com/surbhi498/TransformerFromScratch.git
+    ```
+2. Navigate to the project directory
+    ```sh
+    cd TransformerFromScratch
+    ```
+3. Install dependencies
+    ```sh
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+Run the main script to start the training process:
+
+```sh
+python train.py
